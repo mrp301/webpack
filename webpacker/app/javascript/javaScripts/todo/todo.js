@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import sample from './sample.vue';
+import router from './router';
 
-document.addEventListener('DOMContentLoaded', () => {
-  const app = new Vue({
-    el: '#app',
-    render: h => h(sample),
-  });
+const app = new Vue({
+  router,
+  el: '#app',
+  render: h => h(sample),
 });

@@ -1,6 +1,8 @@
 <template>
-  <div id="app">
-    <p>{{ message }}</p>
+  <div>
+    <router-link to='/todo'>hoge</router-link>
+    <router-link to='/todo/fuga'>fuga</router-link>
+    <router-view />
   </div>
 </template>
  
@@ -8,9 +10,8 @@
 export default {
   data() {
     return {
-      message: 'ああ'
+      message: 'Hello Vue!',
     }
   }
 }
 </script>
- 
