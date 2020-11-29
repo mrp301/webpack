@@ -1,3 +1,6 @@
-import hello from './hello';
+// js
+import jQuery from 'jquery';
+import answer from './javaScripts/answer';
 
-hello('キラッと');
+// css
+import './stylesheets/style.scss';

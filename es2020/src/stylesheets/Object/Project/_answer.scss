@@ -1,0 +1,18 @@
+.p-answer {
+  &__list {
+  display: flex;
+  justify-content: center;
+
+    li {
+      flex-grow: 1;
+
+      .c-button {
+        width: 100%;
+      }
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+  }
+}

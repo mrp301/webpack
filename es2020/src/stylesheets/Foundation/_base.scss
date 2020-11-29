@@ -1,0 +1,21 @@
+html {
+  color: #1c1c1c;
+  font-size: 14px;
+  background-color: #f8f8f8;
+}
+
+html,
+body {
+  min-height: 100vh;
+  background-color: #e6e8eb;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}

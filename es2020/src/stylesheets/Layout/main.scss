@@ -1,0 +1,22 @@
+.l-main {
+  display: flex;
+  align-items: flex-start;
+  width: 1200px;
+
+  & > * {
+    width: 100%;
+
+    &:first-child {
+      margin-right: 20px;
+    }
+    
+  }
+
+  &__question {
+    width: 70%;
+  }
+
+  &__answer {
+    width: 30%;
+  }
+}

@@ -1,0 +1,15 @@
+.p-question {
+  &__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    margin-bottom: 10px;
+  }
+
+  & > * {
+    margin-bottom: 20px;
+  }
+}
