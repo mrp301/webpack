@@ -1,0 +1,5 @@
+{
+  "extensions.ignoreRecommendations": false,
+  "editor.renderWhitespace": "all", // 半角スペースを常に表示
+  "editor.renderControlCharacters": true
+}

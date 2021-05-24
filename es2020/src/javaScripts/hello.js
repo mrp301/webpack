@@ -1,3 +1,3 @@
-export default(message) => {
-  document.body.innerHTML = message;
+export const hellow = () => {
+  console.log("js動いてるよ");
 }

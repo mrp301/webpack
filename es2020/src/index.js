@@ -1,6 +1,8 @@
 // js
-import jQuery from 'jquery';
-import answer from './javaScripts/answer';
+// import jQuery from "jquery";
+// import { hellow } from "./javaScripts/hello";
+
+// hellow();
 
 // css
-import './stylesheets/style.scss';
+import "./stylesheets/style.scss";
